@@ -101,8 +101,7 @@ class TLCGBreaker:
         return False
 
     def _recover_X(self, Xprime):
-        # Recover X from Xprime with binary search using
-        # difference between real outputs and calculated outputs
+        # Recover X from Xprime
 
         g = gcd(self.lcg_a - 1, self.lcg_modulus)
         x0 = (Xprime[0] - self.lcg_b) // g
@@ -110,7 +109,6 @@ class TLCGBreaker:
         x0 = x0 % (self.lcg_modulus // g)
 
         # TODO: Add option to get all possible states?
-        # TODO: possible to add binary search using difference between outputs
         for i in range(g):
             x = x0 + (self.lcg_modulus // g) * i
 
