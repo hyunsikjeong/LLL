@@ -4,4 +4,4 @@ This repository collects techniques related to LLL(Lenstra–Lenstra–Lovász) 
 
 ## Techniques
 
-- None
+- Breaking Truncated LCG (truncated-LCG)
