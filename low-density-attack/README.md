@@ -24,6 +24,8 @@ print(attack.solve()) # Print result of CJLOSS Algorithm
 
 ## Related Challenges
 
+- WMCTF 2020 - babySum && Sum [Link](https://github.com/soreatu/My-CTF-Challenge/tree/master/WMCTF-2020)
+
 ## Reference
 
 - Low-Density Attack Revisited https://eprint.iacr.org/2007/066.pdf
